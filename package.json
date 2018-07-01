@@ -7,7 +7,7 @@
   "description": "Simple drag and drop with dragula",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valor-software/ng2-dragula.git"
+    "url": "git+https://github.com/wulf2468/ng2-dragula.git"
   },
   "keywords": [
     "angular",
@@ -22,9 +22,9 @@
   "author": "NathanWalker <NathanWalker>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/valor-software/ng2-dragula/issues"
+    "url": "https://github.com/wulf2468/ng2-dragula/issues"
   },
-  "homepage": "https://github.com/valor-software/ng2-dragula#readme",
+  "homepage": "https://github.com/wulf2468/ng2-dragula#readme",
   "scripts": {
     "lite-server": "lite-server -c demo/bs-config.json",
     "demo.serve": "run-s build link demo.build lite-server",
@@ -45,7 +45,7 @@
     "version": "npm run flow.changelog && git add -A"
   },
   "dependencies": {
-    "dragula": "^3.7.2"
+    "dragula": "github:wulf2468/dragula#master"
   },
   "peerDependencies": {
     "@angular/core": "^2.3.1 || >=4.0.0",
